@@ -184,6 +184,16 @@ function App() {
               </div>
             </div>
           </div>
+
+
+
+          <div className="">
+            <div className="">
+              <p>Lets Make something amazing together</p>
+              <p>Start by <a href="consolationlotachi@gmail.com">saying hi</a> </p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
