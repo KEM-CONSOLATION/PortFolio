@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css';
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
+
+import { useEffect } from 'react';
 import { MailLineIcon,GithubLineIcon,TwitterLineIcon,ServiceLineIcon,ContactsLineIcon,HomeGearLineIcon,StickyNoteLineIcon,ReactjsFillIcon,NodeTreeIcon,DatabaseFillIcon,Menu1LineIcon,CloseLineIcon,PenNibFillIcon,CodeFillIcon,DribbbleFillIcon,FacebookFillIcon,InstagramFillIcon} from '../src/assets/icons'
 import Work from '../src/assets/images/Works.jpeg'
 import TwitterFillIcon from 'remixicon-react/TwitterFillIcon';
@@ -9,6 +11,25 @@ import GithubFillIcon from 'remixicon-react/GithubFillIcon';
 
 function App() {
   const [open, setopen] = useState(true);
+
+  const [counter, setCounter] = useState(0);
+  const [counter2, setCounter2] = useState(0);
+
+  useEffect(() => {
+    if (counter < 165) {
+      setTimeout(() => {
+        setCounter(counter+3);
+      }, 10);
+    }
+  }, [counter]);
+
+  useEffect(() => {
+    if (counter2 < 3) {
+      setTimeout(() => {
+        setCounter2(counter2 + 0.5);
+      }, 10);
+    }
+  }, [counter2]);
 
   // let menu
   return (
@@ -70,11 +91,11 @@ function App() {
 
               <div className=" flex gap-5 md:grid md:grid-cols-2">
                 <div className=" flex items-center gap-1 mt-5 md:mt-19">
-                  <h1 className=' text-3xl md:text-5xl font-semibold text-green-900'>3 </h1>
+                  <h1 className=' text-3xl md:text-5xl font-semibold text-green-900'>{counter2}</h1>
                   <h1 className=' text-xs md:text-sm'>Years +<br /> Experience</h1>
                 </div>
                 <div className=" flex items-center gap-1 mt-5 md:mt-19">
-                  <h1 className=' text-3xl md:text-5xl font-semibold text-green-900'>165 </h1>
+                  <h1 className=' text-3xl md:text-5xl font-semibold text-green-900'>{counter} </h1>
                   <h1 className=' text-xs md:text-sm'>Project completed <br /> in 106 countries</h1>
                 </div>
               </div>
