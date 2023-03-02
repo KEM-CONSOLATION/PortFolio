@@ -70,8 +70,8 @@ function App() {
 
               <div className=" flex gap-5 md:grid md:grid-cols-2">
                 <div className=" flex items-center gap-1 mt-5 md:mt-19">
-                  <h1 className=' text-3xl md:text-5xl font-semibold text-green-900'>12 </h1>
-                  <h1 className=' text-xs md:text-sm'>Years <br /> Experience</h1>
+                  <h1 className=' text-3xl md:text-5xl font-semibold text-green-900'>3 </h1>
+                  <h1 className=' text-xs md:text-sm'>Years +<br /> Experience</h1>
                 </div>
                 <div className=" flex items-center gap-1 mt-5 md:mt-19">
                   <h1 className=' text-3xl md:text-5xl font-semibold text-green-900'>165 </h1>
