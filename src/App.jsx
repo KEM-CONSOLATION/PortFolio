@@ -40,7 +40,7 @@ function App() {
               <li className='hover:text-green-500 mb-5 py-2 px-3 md:py-0 md:px-0 md:mb-0 '> <span className=''><ServiceLineIcon className=' text-green-500 inline  items-center'/></span> Services</li>
             </ul>
           </div>
-          <div className={`md:flex ${!open ? 'block':'hidden'}`}>
+          <div className={`lg:flex ${!open ? 'block':'hidden'}`}>
             <ul className=' flex gap-5 cursor-pointer font-semibold'>
               <li className='hover:text-green-500 py-2 px-3 md:py-0 md:px-0'><TwitterLineIcon className='text-blue-500 inline  items-center'/> Twitter</li>
               <li className='hover:text-green-500 py-2 px-3 md:py-0 md:px-0'><GithubLineIcon className='text-black-500  inline items-center'/> Github</li>
