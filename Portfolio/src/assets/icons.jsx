@@ -13,6 +13,9 @@ import CloseLineIcon from 'remixicon-react/CloseLineIcon';
 import PenNibFillIcon from 'remixicon-react/PenNibFillIcon';
 import CodeFillIcon from 'remixicon-react/CodeBoxLineIcon';
 import GoogleFillIcon from 'remixicon-react/GoogleFillIcon';
+import DribbbleFillIcon from 'remixicon-react/DribbbleFillIcon';
+import FacebookFillIcon from 'remixicon-react/FacebookFillIcon';
+import InstagramFillIcon from 'remixicon-react/InstagramFillIcon';
 
 
 export {
@@ -30,5 +33,8 @@ export {
     CloseLineIcon,
     PenNibFillIcon,
     CodeFillIcon,
-    GoogleFillIcon
+    GoogleFillIcon,
+    DribbbleFillIcon,
+    FacebookFillIcon,
+    InstagramFillIcon
 };
