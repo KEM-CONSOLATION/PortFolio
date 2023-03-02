@@ -16,9 +16,9 @@ function App() {
   const [counter2, setCounter2] = useState(0);
 
   useEffect(() => {
-    if (counter < 165) {
+    if (counter < 205) {
       setTimeout(() => {
-        setCounter(counter+3);
+        setCounter(counter+1);
       }, 10);
     }
   }, [counter]);
@@ -101,7 +101,18 @@ function App() {
               </div>
             </div>
 
-            <div className=" mb-10 md:mb-0 h-72 w-72 mx-auto md:mx-0 md:h-96 md:w-96 rounded-full bg-green-600 relative">
+            <div className=" flex flex-col items-center justify-center mb-10 md:mb-0 h-72 w-72 mx-auto md:mx-0 md:h-96 md:w-96 rounded-full bg-green-600 relative">
+              
+              {/* <div className=" grid items-center md:hidden  md:mt-19">
+                <h1 className=' text-7xl md:text-5xl font-semibold text-white'>{counter2}</h1>
+                <h1 className=' text-xs text-white md:text-sm'>Years +<br /> Experience</h1>
+              </div> */}
+
+              <div className=" grid items-center md:hidden mt-2 md:mt-19">
+                <h1 className=' text-7xl md:text-5xl font-semibold text-white'>{counter} </h1>
+                <h1 className=' text-xs font-semibold  text-white md:text-sm'>Project completed <br /> in 106 countries</h1>
+              </div>
+
               <div className=" animate-spin shadow-2xl absolute top-0 right-0 bg-white rounded-full h-28 w-28 items-center flex justify-center text-[#61dbfb]">
                 <ReactjsFillIcon size={60}/>
               </div>
