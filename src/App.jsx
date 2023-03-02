@@ -8,7 +8,7 @@ import GithubFillIcon from 'remixicon-react/GithubFillIcon';
 
 
 function App() {
-  const [open, setopen] = useState(false);
+  const [open, setopen] = useState(true);
 
   // let menu
   return (
