@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css';
 import Typewriter from 'typewriter-effect';
-import { MailLineIcon,GithubLineIcon,TwitterLineIcon,ServiceLineIcon,ContactsLineIcon,HomeGearLineIcon,StickyNoteLineIcon,ReactjsFillIcon,NodeTreeIcon,DatabaseFillIcon,Menu1LineIcon,CloseLineIcon,PenNibFillIcon,CodeFillIcon,GoogleFillIcon,DribbbleFillIcon,FacebookFillIcon,InstagramFillIcon} from '../src/assets/icons'
+import { MailLineIcon,GithubLineIcon,TwitterLineIcon,ServiceLineIcon,ContactsLineIcon,HomeGearLineIcon,StickyNoteLineIcon,ReactjsFillIcon,NodeTreeIcon,DatabaseFillIcon,Menu1LineIcon,CloseLineIcon,PenNibFillIcon,CodeFillIcon,DribbbleFillIcon,FacebookFillIcon,InstagramFillIcon} from '../src/assets/icons'
 import Work from '../src/assets/images/Works.jpeg'
 import TwitterFillIcon from 'remixicon-react/TwitterFillIcon';
 import GithubFillIcon from 'remixicon-react/GithubFillIcon';
@@ -141,14 +141,14 @@ function App() {
           </div>
         </div>
 
-        <div className=" max-w-4xl mx-auto mt-10 border-b-2">
+        {/* <div className=" max-w-4xl mx-auto mt-10 border-b-2">
           <h1 className=' text-4xl font-bold text-center text-slate-700'>Partners</h1>
           <div className=" grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:md:grid-cols-6  py-5 ">
             <div className=" text-green-900 flex items-center justify-center">
               <GoogleFillIcon size={90} />
             </div>
             <div className=" text-red-500 flex items-center justify-center">
-              <GoogleFillIcon size={90} />
+              <AmazonFillIcon size={90} />
             </div>
             <div className=" text-green-900 flex items-center justify-center">
               <GoogleFillIcon size={90} />
@@ -163,7 +163,7 @@ function App() {
               <GoogleFillIcon size={90} />
             </div>
           </div>
-        </div>
+        </div> */}
         
 
         <div className=" max-w-5xl mx-auto">
