@@ -27,7 +27,7 @@ function App() {
     if (counter2 < 3) {
       setTimeout(() => {
         setCounter2(counter2 + 0.5);
-      }, 10);
+      },30);
     }
   }, [counter2]);
 
