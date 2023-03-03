@@ -34,7 +34,7 @@ function App() {
       <div className=" mx-auto max-w-6xl">
         <div className=" relative grid grid-flow-row md:flex md:justify-between gap-10 items-center  py-10  border-b-2  px-3 ">
           <div className="">
-            <h1 className='text-3xl font-semibold cursor-pointer font-sans[abel]'>Consolation <span className=' text-green-500' >Lotachi</span> </h1>
+            <h1 className='text-3xl font-semibold cursor-pointer Logo'>Consolation <span className=' text-green-500' >Lotachi</span> </h1>
           </div>
 
 
