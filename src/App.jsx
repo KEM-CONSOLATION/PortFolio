@@ -29,24 +29,6 @@ function App() {
     }
   }, [counter2]);
 
-
-//   <TypeWriterEffect
-//   textStyle={{ fontFamily: 'Red Hat Display' }}
-//   startDelay={100}
-//   cursorColor="black"
-//   text="Text for typewriting effect here"
-//   typeSpeed={100}
-//   eraseSpeed={100}
-// />
- 
-    // const {text} = useTypewriter({
-    //   words: ['Developer', 'Designer','Digital'],
-    //   loop: {},
-    //   typeSpeed: 120,
-    //   deleteSpeed: 80,
-
-    // });
-
   return (
     <>
     <div className="">
@@ -91,13 +73,6 @@ function App() {
           <div className=" grid grid-cols-1 mx-5 my-5 mt-10 md:flex md:items-center md:justify-between">
             <div className=" order-2 md:-order-none mt-10">
               <p className=' bg-green-500 inline px-5 py-3 font-semibold text-white rounded-md animate-pulse'>FrontEnd Developer</p>
-              {/* <Typewriter
-                options={{
-                  strings: ['Hello', 'World'],
-                  autoStart: true,
-                  loop: true,
-                }}
-              /> */}
               <h1 className=' mt-10 text-5xl font-semibold text-green-900'>Talk is Cheap. <br /> Show me the code </h1>
               <p className=' mt-10'>I design and code beautifully simple things and I love what I do.</p>
               <div className=" mt-10 animate-bounce">
@@ -117,12 +92,6 @@ function App() {
             </div>
 
             <div className=" flex flex-col items-center justify-center mb-10 md:mb-0 h-72 w-72 mx-auto md:mx-0 md:h-96 md:w-96 rounded-full bg-green-600 relative">
-              
-              {/* <div className=" grid items-center md:hidden  md:mt-19">
-                <h1 className=' text-7xl md:text-5xl font-semibold text-white'>{counter2}</h1>
-                <h1 className=' text-xs text-white md:text-sm'>Years +<br /> Experience</h1>
-              </div> */}
-
               <div className=" grid items-center md:hidden mt-2 md:mt-19">
                 <h1 className=' text-7xl md:text-5xl font-semibold text-white'>{counter} </h1>
                 <h1 className=' text-xs font-semibold  text-white md:text-sm'>Project completed <br /> in 106 countries</h1>
@@ -182,37 +151,16 @@ function App() {
 
           <div className=" mx-5">
             <p className=' text-slate-400 text-lg mb-7 '>Introduction</p>
-            <p className=' text-4xl font-semibold mb-7'>Hello! I'm  
+            <p className=' text-4xl font-semibold'>Hello! I'm Consolation Lotachi </p>
+            <p className=' text-green-900 font-semibold mb-7'>
               <Typewriter
                 options={{
-
-                  strings:["Welcome", "Please Subscribe"],
+                  strings:["A FrontEnd Web Developer", "A Graphics Designer", "A Digital Illustrator", "A User Interface Designer", "A User Experience Designer", "An Upcoming Tech Bro" ],
                   autoStart:true,
                   loop:true,
                 }}
               />  
             </p>
-            {/* <p className=' text-4xl font-semibold'>Hello! I'm Consolation Lotachi</p>
-            <p className=' font-semibold mb-7'>I'm 
-              
-
-                <Typical 
-                  loop={Infinity}
-                  wrapper="b"
-                  steps={[
-                    ' a FrontEnd Web Developer',
-                    9000,
-                    ' a Designer',
-                    9000,
-                    ' a Digital Illustrator',
-                    9000,
-                    ' a User Interface Designer',
-                    9000,
-                    ' a User Experience Designer',
-                    9000
-                  ]}
-                 className=' text-green-900'/>
-            </p> */}
             <p className=' text-2xl italic font-medium text-slate-500 mb-7'>Every Great design begin with an even better story</p>
             <p className=' tracking-widest text-slate-70'>A town hall different from bala blu, blue blu bulaba. broom broom broom brooooooooom. Bala blu blue blu bulaba. The farmers will make more money. Your lunch will not be imported, cassava garri ewa and ehhh ehhhhnn. The farmer will make money, the dinner would be cassava, eba, ewa and everything.</p>
           </div>
