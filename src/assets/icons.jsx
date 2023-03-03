@@ -16,6 +16,7 @@ import GoogleFillIcon from 'remixicon-react/GoogleFillIcon';
 import DribbbleFillIcon from 'remixicon-react/DribbbleFillIcon';
 import FacebookFillIcon from 'remixicon-react/FacebookFillIcon';
 import InstagramFillIcon from 'remixicon-react/InstagramFillIcon';
+import LinkedinFillIcon from 'remixicon-react/LinkedinFillIcon';
 
 
 export {
@@ -36,5 +37,6 @@ export {
     GoogleFillIcon,
     DribbbleFillIcon,
     FacebookFillIcon,
-    InstagramFillIcon
+    InstagramFillIcon,
+    LinkedinFillIcon
 };

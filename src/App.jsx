@@ -1,7 +1,7 @@
 import './App.css';
 import Typewriter from 'typewriter-effect';
 import { useEffect,useState } from 'react';
-import { MailLineIcon,GithubLineIcon,TwitterLineIcon,ServiceLineIcon,ContactsLineIcon,HomeGearLineIcon,StickyNoteLineIcon,ReactjsFillIcon,NodeTreeIcon,DatabaseFillIcon,Menu1LineIcon,CloseLineIcon,PenNibFillIcon,CodeFillIcon,DribbbleFillIcon,FacebookFillIcon,InstagramFillIcon} from '../src/assets/icons'
+import { MailLineIcon,GithubLineIcon,TwitterLineIcon,ServiceLineIcon,ContactsLineIcon,HomeGearLineIcon,StickyNoteLineIcon,ReactjsFillIcon,NodeTreeIcon,DatabaseFillIcon,Menu1LineIcon,CloseLineIcon,PenNibFillIcon,CodeFillIcon,DribbbleFillIcon,FacebookFillIcon,InstagramFillIcon,LinkedinFillIcon} from '../src/assets/icons'
 import Work from '../src/assets/images/Works.jpeg'
 import TwitterFillIcon from 'remixicon-react/TwitterFillIcon';
 import GithubFillIcon from 'remixicon-react/GithubFillIcon';
@@ -59,9 +59,15 @@ function App() {
           </div>
           <div className={`lg:flex ${!open ? 'block':'hidden'}`}>
             <ul className=' flex gap-5 cursor-pointer font-semibold'>
-              <li className='hover:text-green-500 py-2 px-3 md:py-0 md:px-0'><TwitterLineIcon className='text-blue-500 inline  items-center'/> Twitter</li>
-              <li className='hover:text-green-500 py-2 px-3 md:py-0 md:px-0'><GithubLineIcon className='text-black-500  inline items-center'/> Github</li>
-              <li className='hover:text-green-500 py-2 px-3 md:py-0 md:px-0'><MailLineIcon className='text-red-500  inline items-center' /> Mail</li>
+              <li className='hover:text-green-500 py-2 px-3 md:py-0 md:px-0'>
+                <a href="https://twitter.com/TechieConso"><TwitterLineIcon className='text-blue-500 inline  items-center'/> Twitter</a>
+              </li>
+              <li className='hover:text-green-500 py-2 px-3 md:py-0 md:px-0'>
+                <a href="https://github.com/KEM-CONSOLATION"><GithubLineIcon className='text-black-500  inline items-center'/> Github </a> 
+              </li>
+              <li className='hover:text-green-500 py-2 px-3 md:py-0 md:px-0'>
+                <a href=" https://mail.google.com/mail/consolationlotachi@gmail.com"><MailLineIcon className='text-red-500  inline items-center' /> Mail </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -233,16 +239,30 @@ function App() {
               </a>            
             </div>
             <div className="py-3 px-3 text-white bg-black rounded-full ">
-              <GithubFillIcon className='' />
+              <a href="https://github.com/KEM-CONSOLATION" target="_blank">
+                <GithubFillIcon className='' />
+            </a>
             </div>
             <div className="py-3 px-3 text-white bg-red-500 rounded-full ">
-              <DribbbleFillIcon className='' />
+              <a href="https://dribbble.com/TechieConso" target="_blank">
+                <DribbbleFillIcon className='' />
+              </a>
             </div>
             <div className="py-3 px-3 text-white bg-blue-700 rounded-full">
-              <FacebookFillIcon className='' />
+              <a href="https://web.facebook.com/kem.consolation" target="_blank">
+                <FacebookFillIcon className='' />
+                </a>
             </div>
             <div className="py-3 px-3 text-white bg-pink-500 rounded-full">
-              <InstagramFillIcon className='' />
+              <a href="https://www.instagram.com/techie_conso/" target="_blank">
+                <InstagramFillIcon className='' />
+              </a>
+            </div>
+
+            <div className="py-3 px-3 text-white bg-blue-500 rounded-full">
+              <a href="https://www.linkedin.com/in/kem-consolation/" target="_blank">
+                <LinkedinFillIcon className='' />
+              </a>
             </div>
             
           </div>
