@@ -1,7 +1,5 @@
 import './App.css';
-// import Typewriter from 'typewriter-effect';
-// import { useTypewriter, Cursor} from 'react-simple-typewriter';
-import Typical from 'react-typical';
+import Typewriter from 'typewriter-effect';
 import { useEffect,useState } from 'react';
 import { MailLineIcon,GithubLineIcon,TwitterLineIcon,ServiceLineIcon,ContactsLineIcon,HomeGearLineIcon,StickyNoteLineIcon,ReactjsFillIcon,NodeTreeIcon,DatabaseFillIcon,Menu1LineIcon,CloseLineIcon,PenNibFillIcon,CodeFillIcon,DribbbleFillIcon,FacebookFillIcon,InstagramFillIcon} from '../src/assets/icons'
 import Work from '../src/assets/images/Works.jpeg'
@@ -184,14 +182,17 @@ function App() {
 
           <div className=" mx-5">
             <p className=' text-slate-400 text-lg mb-7 '>Introduction</p>
-            {/* <p className=' text-4xl font-semibold mb-7'>Hello! I'm  */}
-              {/* <Typewriter
-                onInit={(typewriter)=>{
-                  typewriter.typeString('Hello Youtube').pauseFor(2000).deleteAll().start();
+            <p className=' text-4xl font-semibold mb-7'>Hello! I'm  
+              <Typewriter
+                options={{
+
+                  strings:["Welcome", "Please Subscribe"],
+                  autoStart:true,
+                  loop:true,
                 }}
-              />   */}
-            {/* </p> */}
-            <p className=' text-4xl font-semibold'>Hello! I'm Consolation Lotachi</p>
+              />  
+            </p>
+            {/* <p className=' text-4xl font-semibold'>Hello! I'm Consolation Lotachi</p>
             <p className=' font-semibold mb-7'>I'm 
               
 
@@ -211,7 +212,7 @@ function App() {
                     9000
                   ]}
                  className=' text-green-900'/>
-            </p>
+            </p> */}
             <p className=' text-2xl italic font-medium text-slate-500 mb-7'>Every Great design begin with an even better story</p>
             <p className=' tracking-widest text-slate-70'>A town hall different from bala blu, blue blu bulaba. broom broom broom brooooooooom. Bala blu blue blu bulaba. The farmers will make more money. Your lunch will not be imported, cassava garri ewa and ehhh ehhhhnn. The farmer will make money, the dinner would be cassava, eba, ewa and everything.</p>
           </div>
