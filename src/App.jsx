@@ -1,8 +1,7 @@
-import { useState } from 'react'
 import './App.css';
-// import Typewriter from 'typewriter-effect';
-
-import { useEffect } from 'react';
+import Typewriter from 'typewriter-effect';
+// import { useTypewriter, Cursor} from 'react-simple-typewriter';
+import { useEffect,useState } from 'react';
 import { MailLineIcon,GithubLineIcon,TwitterLineIcon,ServiceLineIcon,ContactsLineIcon,HomeGearLineIcon,StickyNoteLineIcon,ReactjsFillIcon,NodeTreeIcon,DatabaseFillIcon,Menu1LineIcon,CloseLineIcon,PenNibFillIcon,CodeFillIcon,DribbbleFillIcon,FacebookFillIcon,InstagramFillIcon} from '../src/assets/icons'
 import Work from '../src/assets/images/Works.jpeg'
 import TwitterFillIcon from 'remixicon-react/TwitterFillIcon';
@@ -31,7 +30,24 @@ function App() {
     }
   }, [counter2]);
 
-  // let menu
+
+//   <TypeWriterEffect
+//   textStyle={{ fontFamily: 'Red Hat Display' }}
+//   startDelay={100}
+//   cursorColor="black"
+//   text="Text for typewriting effect here"
+//   typeSpeed={100}
+//   eraseSpeed={100}
+// />
+ 
+    // const {text} = useTypewriter({
+    //   words: ['Developer', 'Designer','Digital'],
+    //   loop: {},
+    //   typeSpeed: 120,
+    //   deleteSpeed: 80,
+
+    // });
+
   return (
     <>
     <div className="">
@@ -167,7 +183,13 @@ function App() {
 
           <div className=" mx-5">
             <p className=' text-slate-400 text-lg mb-7 '>Introduction</p>
-            <p className=' text-4xl font-semibold mb-7'>Hello! I'm Consolation Lotachi</p>
+            <p className=' text-4xl font-semibold mb-7'>Hello! I'm 
+              <Typewriter
+                onInit={(typewriter)=>{
+                  typewriter.typeString('Hello Youtube').start();
+                }}
+              />  
+            </p>
             <p className=' text-2xl italic font-medium text-slate-500 mb-7'>Every Great design begin with an even better story</p>
             <p className=' tracking-widest text-slate-70'>A town hall different from bala blu, blue blu bulaba. broom broom broom brooooooooom. Bala blu blue blu bulaba. The farmers will make more money. Your lunch will not be imported, cassava garri ewa and ehhh ehhhhnn. The farmer will make money, the dinner would be cassava, eba, ewa and everything.</p>
           </div>
