@@ -27,7 +27,7 @@ function App() {
       },30);
     }
   }, [counter2]);
-
+         
   return (
     <>
     <div className="">
