@@ -374,23 +374,23 @@ function App() {
               </p>
             </div>
 
-            <div className=" grid grid-cols-1 gap-3 mt-5 md:flex  md:gap-5 md:animate-bounce animate-none">
-              <div className="py-3 w-[50px] flex justify-center text-white bg-blue-500 rounded-full ">
+            <div className=" flex gap-3 mt-5 md:flex  md:gap-5 md:animate-bounce animate-none">
+              <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-blue-500 rounded-full ">
                 <a href="https://twitter.com/TechieConso" target="_blank">
                   <TwitterFillIcon className="" />
                 </a>
               </div>
-              <div className="py-3 w-[50px] flex justify-center text-white bg-black rounded-full ">
+              <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-black rounded-full ">
                 <a href="https://github.com/KEM-CONSOLATION" target="_blank">
                   <GithubFillIcon className="" />
                 </a>
               </div>
-              <div className="py-3 w-[50px] flex justify-center text-white bg-red-500 rounded-full ">
+              <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-red-500 rounded-full ">
                 <a href="https://dribbble.com/TechieConso" target="_blank">
                   <DribbbleFillIcon className="" />
                 </a>
               </div>
-              <div className="py-3 w-[50px] flex justify-center text-white bg-blue-700 rounded-full">
+              <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-blue-700 rounded-full">
                 <a
                   href="https://web.facebook.com/kem.consolation"
                   target="_blank"
@@ -398,7 +398,7 @@ function App() {
                   <FacebookFillIcon className="" />
                 </a>
               </div>
-              <div className="py-3 w-[50px] flex justify-center text-white bg-pink-500 rounded-full">
+              <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-pink-500 rounded-full">
                 <a
                   href="https://www.instagram.com/techie_conso/"
                   target="_blank"
@@ -407,7 +407,7 @@ function App() {
                 </a>
               </div>
 
-              <div className="py-3 w-[50px] flex justify-center text-white bg-blue-500 rounded-full">
+              <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-blue-500 rounded-full">
                 <a
                   href="https://www.linkedin.com/in/kem-consolation/"
                   target="_blank"
