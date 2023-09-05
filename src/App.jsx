@@ -419,11 +419,6 @@ function App() {
           </div>
         </div>
       </div>
-
-      {/* Motion Reduction */}
-      {/* <button class="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ...">
-              Hover me
-            </button> */}
     </>
   );
 }
