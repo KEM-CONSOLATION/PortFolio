@@ -330,7 +330,7 @@ function App() {
               <p className=" text-lg font-medium">
                 Start by{" "}
                 <a
-                  href="consolationlotachi@gmail.com"
+                  href="mailto::consolationlotachi@gmail.com"
                   className=" text-green-500 underline"
                 >
                   Saying hi
