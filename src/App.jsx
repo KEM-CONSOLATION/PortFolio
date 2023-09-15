@@ -363,13 +363,12 @@ function App() {
           <div className=" grid md:flex md:justify-between md:items-center mx-10 py-5">
             <div className=" grid md:flex md:items-end md:gap-10">
               <h1 className="text-2xl font-semibold cursor-pointer animate-bounce">
-                Consolation <span className=" text-green-500">Lotachi</span>{" "}
+                Consolation <span className=" text-green-500">Lotachi</span>
               </h1>
             </div>
 
             <div className="">
               <p className=" text-gray-700">
-                {" "}
                 Copyright 2023, All Rights Reserved
               </p>
             </div>
