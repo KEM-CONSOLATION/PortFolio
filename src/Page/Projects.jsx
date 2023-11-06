@@ -5,7 +5,7 @@ import { LinkIcon } from "../assets/icons";
 import Work1 from "../assets/images/zeilot.png";
 import Work2 from "../assets/images/pendulum.png";
 import Work3 from "../assets/images/photocard.png";
-import CityDashboard from "../assets/images/CityDashboard.png";
+// import CityDashboard from "../assets/images/CityDashboard.png";
 import Work from "../assets/images/CityHome.png";
 import pizza from "../assets/images/pizza.png";
 import farAway from "../assets/images/FarAway.png";
@@ -133,7 +133,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div class="max-w-xs shadow-sm shadow-slate-400 p-5 relative">
+          {/* <div class="max-w-xs shadow-sm shadow-slate-400 p-5 relative">
             <div class="relative group">
               <img src={CityDashboard} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -146,7 +146,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           <div class="max-w-xs shadow-sm shadow-slate-400 p-5 relative">
             <div class="relative group">
               <img src={farAway} alt="" class="w-full" />
