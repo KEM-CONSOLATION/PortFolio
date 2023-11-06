@@ -6,7 +6,7 @@ import Work1 from "../assets/images/zeilot.png";
 import Work2 from "../assets/images/pendulum.png";
 import Work3 from "../assets/images/photocard.png";
 import CityDashboard from "../assets/images/cityDashboard.png";
-import Work from "../assets/images/CityHome.jpg";
+import Work from "../assets/images/CityHome.png";
 import pizza from "../assets/images/pizza.png";
 import farAway from "../assets/images/FarAway.png";
 import steps from "../assets/images/steps.png";

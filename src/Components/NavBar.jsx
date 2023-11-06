@@ -4,9 +4,7 @@ import {
   GithubLineIcon,
   TwitterLineIcon,
   ServiceLineIcon,
-  ContactsLineIcon,
   HomeGearLineIcon,
-  StickyNoteLineIcon,
   Menu1LineIcon,
   CloseLineIcon,
 } from "../assets/icons";

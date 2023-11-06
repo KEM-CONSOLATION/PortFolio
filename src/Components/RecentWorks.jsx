@@ -1,7 +1,7 @@
 import React from "react";
 import { LinkIcon } from "../assets/icons";
 
-import Work from "../assets/images/CityHome.jpg";
+import Work from "../assets/images/CityHome.png";
 import Work1 from "../assets/images/zeilot.png";
 import Work2 from "../assets/images/pendulum.png";
 import Work3 from "../assets/images/photocard.png";
