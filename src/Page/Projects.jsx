@@ -20,7 +20,7 @@ const Projects = () => {
     <div>
       <NavBar />
       <div className=" mx-auto max-w-5xl">
-        <div className=" grid mx-10 sm:grid-cols-3 items-center">
+        <div className=" grid mx-10 gap-3 sm:gap-0 sm:grid-cols-3 items-center">
           <div class="max-w-xs shadow-sm shadow-slate-400 p-5 relative">
             <div class="relative group">
               <img src={Work1} alt="" class="w-full" />
