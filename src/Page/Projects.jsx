@@ -26,7 +26,7 @@ const Projects = () => {
               <img src={Work1} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <a
-                  href="https://cityxplorer.io"
+                  href="https://deploy-preview-62--cozy-pothos-dc3dc0.netlify.app/"
                   target="_blank"
                   className=" flex"
                 >
@@ -67,11 +67,7 @@ const Projects = () => {
             <div class="relative group">
               <img src={pizza} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <a
-                  href="https://k12.cabineblue.com/"
-                  target="_blank"
-                  className=" flex"
-                >
+                <a href="/" target="_blank" className=" flex">
                   <LinkIcon /> <span>Pizza App</span>
                 </a>
               </div>
@@ -82,7 +78,7 @@ const Projects = () => {
               <img src={movie} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <a
-                  href="https://k12.cabineblue.com/"
+                  href="https://movie-fetch-nine.vercel.app/"
                   target="_blank"
                   className=" flex"
                 >
@@ -95,11 +91,7 @@ const Projects = () => {
             <div class="relative group">
               <img src={timer} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <a
-                  href="https://k12.cabineblue.com/"
-                  target="_blank"
-                  className=" flex"
-                >
+                <a href="/" target="_blank" className=" flex">
                   <LinkIcon /> <span>Workout Timer</span>
                 </a>
               </div>
@@ -109,11 +101,7 @@ const Projects = () => {
             <div class="relative group">
               <img src={steps} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <a
-                  href="https://k12.cabineblue.com/"
-                  target="_blank"
-                  className=" flex"
-                >
+                <a href="/" target="_blank" className=" flex">
                   <LinkIcon /> <span>Steps </span>
                 </a>
               </div>
@@ -124,7 +112,7 @@ const Projects = () => {
               <img src={quiz} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <a
-                  href="https://k12.cabineblue.com/"
+                  href="https://react-quiz-xi-bay.vercel.app/"
                   target="_blank"
                   className=" flex"
                 >
@@ -151,11 +139,7 @@ const Projects = () => {
             <div class="relative group">
               <img src={farAway} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <a
-                  href="https://k12.cabineblue.com/"
-                  target="_blank"
-                  className=" flex"
-                >
+                <a href="/" target="_blank" className=" flex">
                   <LinkIcon /> <span>Far Away</span>
                 </a>
               </div>
@@ -165,11 +149,7 @@ const Projects = () => {
             <div class="relative group">
               <img src={eat} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <a
-                  href="https://k12.cabineblue.com/"
-                  target="_blank"
-                  className=" flex"
-                >
+                <a href="/" target="_blank" className=" flex">
                   <LinkIcon /> <span>Eat n Split</span>
                 </a>
               </div>
@@ -179,11 +159,7 @@ const Projects = () => {
             <div class="relative group">
               <img src={Blog} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <a
-                  href="https://k12.cabineblue.com/"
-                  target="_blank"
-                  className=" flex"
-                >
+                <a href="/" target="_blank" className=" flex">
                   <LinkIcon /> <span>Atomic Blog</span>
                 </a>
               </div>

@@ -53,10 +53,10 @@ const RecentWorks = () => {
           <div className=" grid grid-rows-1 gap-7">
             <div class="max-w-xs shadow-sm shadow-slate-400 p-5 relative">
               <div class="relative group">
-                <img src={Work1} alt="" class="w-full" />
+                <img src={Work1} alt="Zeitiod Project" class="w-full" />
                 <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <a
-                    href="https://cityxplorer.io"
+                    href="https://deploy-preview-62--cozy-pothos-dc3dc0.netlify.app/"
                     target="_blank"
                     className=" flex"
                   >
