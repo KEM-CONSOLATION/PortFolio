@@ -5,6 +5,7 @@ import Work from "../assets/images/CityHome.png";
 import Work1 from "../assets/images/zeilot.png";
 import Work2 from "../assets/images/pendulum.png";
 import Work3 from "../assets/images/photocard.png";
+import { Link } from "react-router-dom";
 const RecentWorks = () => {
   return (
     <div>
@@ -33,12 +34,12 @@ const RecentWorks = () => {
             </div>
 
             <div className=" mt-5 md:mt-10 flex flex-col mb-5 md:mb-0 md:ml-20">
-              <a
-                href="projects"
+              <Link
+                to="projects"
                 className=" text-green-500 underline font-bold text-2xl uppercase mb-10"
               >
                 All Projects
-              </a>
+              </Link>
               <p>Some projects not allowed due to NOA.</p>
               <p>
                 If you want to see more,{" "}

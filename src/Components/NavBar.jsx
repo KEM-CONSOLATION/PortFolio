@@ -8,6 +8,7 @@ import {
   Menu1LineIcon,
   CloseLineIcon,
 } from "../assets/icons";
+import { Link } from "react-router-dom";
 const NavBar = () => {
   const [open, setopen] = useState(true);
 
@@ -43,12 +44,12 @@ const NavBar = () => {
             <ul className=" md:flex gap-8 cursor-pointer font-semibold">
               <li className="hover:text-green-500 mb-5 py-2 px-3 md:py-0 md:px-0 md:mb-0 ">
                 {" "}
-                <a href="projects">
+                <Link to="projects">
                   <span className="">
                     <HomeGearLineIcon className=" text-green-500 inline  items-center" />
                   </span>{" "}
                   Projects
-                </a>
+                </Link>
               </li>
 
               <li className="hover:text-green-500 mb-5 py-2 px-3 md:py-0 md:px-0 md:mb-0 ">
