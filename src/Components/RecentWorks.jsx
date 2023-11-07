@@ -35,7 +35,7 @@ const RecentWorks = () => {
 
             <div className=" mt-5 md:mt-10 flex flex-col mb-5 md:mb-0 md:ml-20">
               <Link
-                to="projects"
+                to="/projects"
                 className=" text-green-500 underline font-bold text-2xl uppercase mb-10"
               >
                 All Projects

@@ -7,6 +7,7 @@ import {
 } from "../assets/icons";
 import TwitterFillIcon from "remixicon-react/TwitterFillIcon";
 import GithubFillIcon from "remixicon-react/GithubFillIcon";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -29,23 +30,21 @@ const Footer = () => {
             </p>
           </div>
           <div className="">
-            <p className=" text-sm text-gray-500 capitalize">Information</p>
             <p className=" mb-10 text-sm text-gray-500">
               Umuerim Nekede Owerri, Imo State Nigeria
             </p>
 
             <ul>
+              <Link to="/projects">
+                <li className=" py-2 cursor-pointer hover:text-green-900 text-md">
+                  Projects
+                </li>
+              </Link>
+
               <li className=" py-2 cursor-pointer hover:text-green-900 text-md">
-                Services
-              </li>
-              <li className=" py-2 cursor-pointer hover:text-green-900 text-md">
-                Works
-              </li>
-              <li className=" py-2 cursor-pointer hover:text-green-900 text-md">
-                Notes
-              </li>
-              <li className=" py-2 cursor-pointer hover:text-green-900 text-md">
-                Contact
+                <a href="mailto::consolationlotachi@gmail.com" target="_blank">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

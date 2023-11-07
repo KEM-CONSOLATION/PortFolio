@@ -18,6 +18,7 @@ import FacebookFillIcon from "remixicon-react/FacebookFillIcon";
 import InstagramFillIcon from "remixicon-react/InstagramFillIcon";
 import LinkedinFillIcon from "remixicon-react/LinkedinFillIcon";
 import LinkIcon from "remixicon-react/LinkIcon";
+import SettingsFillIcon from "remixicon-react/SettingsFillIcon";
 
 export {
   GithubLineIcon,
@@ -40,4 +41,5 @@ export {
   InstagramFillIcon,
   LinkedinFillIcon,
   LinkIcon,
+  SettingsFillIcon,
 };
