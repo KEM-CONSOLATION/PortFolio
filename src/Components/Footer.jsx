@@ -23,7 +23,7 @@ const Footer = () => {
               Start by{" "}
               <a
                 href="mailto::consolationlotachi@gmail.com"
-                className=" text-green-500 underline"
+                className=" text-blue-500 underline"
               >
                 Saying hi
               </a>{" "}
@@ -36,12 +36,12 @@ const Footer = () => {
 
             <ul>
               <Link to="/projects">
-                <li className=" py-2 cursor-pointer hover:text-green-900 text-md">
+                <li className=" py-2 cursor-pointer hover:text-blue-900 text-md">
                   Projects
                 </li>
               </Link>
 
-              <li className=" py-2 cursor-pointer hover:text-green-900 text-md">
+              <li className=" py-2 cursor-pointer hover:text-blue-900 text-md">
                 <a href="mailto::consolationlotachi@gmail.com" target="_blank">
                   Contact
                 </a>
@@ -53,7 +53,10 @@ const Footer = () => {
         <div className=" grid md:flex md:justify-between md:items-center mx-5 py-5">
           <div className=" grid md:flex md:items-end md:gap-10">
             <h1 className="text-2xl font-semibold cursor-pointer">
-              Consolation <span className=" text-green-500">Lotachi</span>
+              <a href="#home" className="">
+                {" "}
+                Consolation <span className=" text-blue-500">Lotachi</span>
+              </a>
             </h1>
           </div>
 

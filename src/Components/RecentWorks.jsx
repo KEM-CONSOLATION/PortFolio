@@ -12,7 +12,7 @@ const RecentWorks = () => {
       <div className=" max-w-5xl mx-auto">
         <div className=" flex flex-col items-center justify-center md:flex md:flex-row gap-20 md:items-start  mt-3 md:mt-10 ">
           <div className="">
-            <h1 className=" text-4xl italic text-green-900 font-bold">
+            <h1 className=" text-4xl italic text-blue-900 font-bold">
               Latest works
             </h1>
             <p className=" text-sm text-gray-500 mb-5 md:mb-20">
@@ -36,14 +36,18 @@ const RecentWorks = () => {
             <div className=" mt-5 md:mt-10 flex flex-col mb-5 md:mb-0 md:ml-20">
               <Link
                 to="/projects"
-                className=" text-green-500 underline font-bold text-2xl uppercase mb-10"
+                className=" text-blue-500 underline font-bold text-2xl uppercase mb-10"
               >
                 All Projects
               </Link>
               <p>Some projects not allowed due to NOA.</p>
               <p>
                 If you want to see more,{" "}
-                <a href="/" className=" underline text-green-500">
+                <a
+                  href="mailto::consolationlotachi@gmail.com"
+                  target="_blank"
+                  className=" underline text-blue-500"
+                >
                   Contact
                 </a>
               </p>
