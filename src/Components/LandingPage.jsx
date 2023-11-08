@@ -54,7 +54,7 @@ const LandingPage = () => {
             <div className=" mt-10 animate-bounce">
               <p className=" bg-blue-500 inline px-5 py-3 font-semibold text-white rounded-md">
                 <a
-                  href="https://drive.google.com/file/d/1TKfaZLTu4eDwAisab8D8tQG6Q2Gt5a9x/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1e0NxZlcHl60cbfxtqu0w8BSl67u0UDph/view?usp=drive_link"
                   target="_blank"
                 >
                   View CV
