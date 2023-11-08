@@ -46,18 +46,18 @@ const NavBar = () => {
               <li className="hover:text-blue-500 mb-5 py-2 px-3 md:py-0 md:px-0 md:mb-0 ">
                 {" "}
                 <Link to="/">
-                  <span className="">
+                  {/* <span className="">
                     <HomeGearLineIcon className=" text-blue-500 inline  items-center" />
-                  </span>{" "}
+                  </span>{" "} */}
                   Home
                 </Link>
               </li>
               <li className="hover:text-blue-500 mb-5 py-2 px-3 md:py-0 md:px-0 md:mb-0 ">
                 {" "}
                 <Link to="/projects">
-                  <span className="">
+                  {/* <span className="">
                     <SettingsFillIcon className=" text-blue-500 inline  items-center" />
-                  </span>{" "}
+                  </span>{" "} */}
                   Projects
                 </Link>
               </li>
@@ -76,13 +76,13 @@ const NavBar = () => {
               <li className="hover:text-blue-500 py-2 px-3 md:py-0 md:px-0">
                 <a href="https://twitter.com/TechieConso" target="_blank">
                   <TwitterLineIcon className="text-blue-500 inline  items-center" />{" "}
-                  Twitter
+                  {/* Twitter */}
                 </a>
               </li>
               <li className="hover:text-blue-500 py-2 px-3 md:py-0 md:px-0">
                 <a href="https://github.com/KEM-CONSOLATION" target="_blank">
                   <GithubLineIcon className="text-black-500  inline items-center" />{" "}
-                  Github{" "}
+                  {/* Github{" "} */}
                 </a>
               </li>
               <li className="hover:text-blue-500 py-2 px-3 md:py-0 md:px-0">
@@ -91,7 +91,7 @@ const NavBar = () => {
                   target="_blank"
                 >
                   <MailLineIcon className="text-red-500  inline items-center" />{" "}
-                  Mail{" "}
+                  {/* Mail{" "} */}
                 </a>
               </li>
             </ul>

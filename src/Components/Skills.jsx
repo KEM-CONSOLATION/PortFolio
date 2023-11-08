@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div>
       {" "}
-      <div className=" grid md:grid-cols-2 gap-10 md:gap-20 items-start mt-40 ">
+      <div className=" grid md:grid-cols-2 gap-10 md:gap-20 items-start mt-10 md:mt-20 ">
         <div className=" grid grid-rows-3 gap-5 mx-5 md:mx-0 order-2 md:-order-none">
           <div className=" flex justify-between items-center hover:rounded-br-full transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 bg-green-500 px-10 py-5 shadow-md text-white hover:bg-green-700 cursor-pointer">
             <div className=" grid grid-rows-1 gap-2">
@@ -51,11 +51,10 @@ const Skills = () => {
         </div>
 
         <div className=" mx-5">
-          <p className=" text-slate-400 text-lg mb-5 ">Introduction</p>
-          <p className=" text-4xl font-semibold">
+          {/* <p className=" text-4xl font-semibold">
             Hello👋 I'm Consolation Lotachi{" "}
-          </p>
-          <p className=" text-blue-900 font-semibold mb-5">
+          </p> */}
+          {/* <p className=" text-blue-900 font-semibold mb-5">
             <Typewriter
               options={{
                 strings: [
@@ -70,10 +69,10 @@ const Skills = () => {
                 loop: true,
               }}
             />
-          </p>
-          <p className=" text-2xl italic font-medium text-slate-500 mb-7">
+          </p> */}
+          {/* <p className=" text-2xl italic font-medium text-slate-500 mb-7">
             Every Great design begin's with an even better story
-          </p>
+          </p> */}
           <p className=" tracking-widest text-slate-70 text-justify">
             <p className=" font-semibold">
               Resourceful Front-End Web Developer
