@@ -8,7 +8,7 @@ const Skills = () => {
       {" "}
       <div className=" grid md:grid-cols-2 gap-10 md:gap-20 items-start mt-40 ">
         <div className=" grid grid-rows-3 gap-5 mx-5 md:mx-0 order-2 md:-order-none">
-          <div className=" flex justify-between items-center hover:rounded-br-full transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 bg-slate-500 px-10 py-5 shadow-md text-white hover:bg-green-700 cursor-pointer">
+          <div className=" flex justify-between items-center hover:rounded-br-full transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 bg-green-500 px-10 py-5 shadow-md text-white hover:bg-green-700 cursor-pointer">
             <div className=" grid grid-rows-1 gap-2">
               <p className=" text-2xl font-semibold">Design</p>
               <p className=" text-sm">
@@ -16,7 +16,7 @@ const Skills = () => {
               </p>
               <p className=" text-xs font-bold underline">20+ Projects</p>
             </div>
-            <div className=" bg-green-400 rounded-full px-5 py-5 ">
+            <div className=" bg-blue-400 rounded-full px-5 py-5 ">
               <PenNibFillIcon size={40} />
             </div>
           </div>
