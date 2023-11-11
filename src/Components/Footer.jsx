@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div>
       {" "}
-      <div className=" bg-gray-200">
+      <div className=" bg-gray-200 max-w-7xl mx-auto">
         <div className="flex flex-col justify-center mx-5 md:mx-20 md:flex md:flex-row md:items-start md:mt-3 pt-10 md:justify-center md:gap-20">
           <div className="">
             <p className=" text-xl font-semibold mb-10">

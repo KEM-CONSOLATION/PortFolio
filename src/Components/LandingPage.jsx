@@ -45,7 +45,7 @@ const LandingPage = () => {
                     "-Context Api",
                     "-React Router",
                     "-Redux Toolkit",
-                    "-Git ",
+                    "-Git",
                     "-Javascript",
                     "-Figma",
                     "-Adobe Illustrator",

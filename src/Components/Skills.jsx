@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div>
       {" "}
-      <div className=" grid md:grid-cols-2 gap-10 md:gap-20 items-start mt-10 md:mt-20 ">
+      <div className=" grid md:grid-cols-2 gap-10 md:gap-20 items-start mt-10 md:mt-20 max-w-7xl mx-auto ">
         <div className=" grid grid-rows-3 gap-5 mx-5 md:mx-0 order-2 md:-order-none">
           <div className=" flex justify-between items-center hover:rounded-br-full transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 bg-green-500 px-10 py-5 shadow-md text-white hover:bg-green-700 cursor-pointer">
             <div className=" grid grid-rows-1 gap-2">
