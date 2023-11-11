@@ -67,17 +67,17 @@ const Footer = () => {
           </div>
 
           <div className=" flex gap-1 mt-5 md:flex  md:gap-5 animate-none">
-            <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-blue-500 rounded-full ">
+            {/* <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-blue-500 rounded-full ">
               <a href="https://twitter.com/TechieConso" target="_blank">
                 <TwitterFillIcon className="" />
               </a>
-            </div>
+            </div> */}
             <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-black rounded-full ">
               <a href="https://github.com/KEM-CONSOLATION" target="_blank">
                 <GithubFillIcon className="" />
               </a>
             </div>
-            <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-red-500 rounded-full ">
+            {/* <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-red-500 rounded-full ">
               <a href="https://dribbble.com/TechieConso" target="_blank">
                 <DribbbleFillIcon className="" />
               </a>
@@ -89,12 +89,12 @@ const Footer = () => {
               >
                 <FacebookFillIcon className="" />
               </a>
-            </div>
-            <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-pink-500 rounded-full">
+            </div> */}
+            {/* <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-pink-500 rounded-full">
               <a href="https://www.instagram.com/techie_conso/" target="_blank">
                 <InstagramFillIcon className="" />
               </a>
-            </div>
+            </div> */}
 
             <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-blue-500 rounded-full">
               <a
