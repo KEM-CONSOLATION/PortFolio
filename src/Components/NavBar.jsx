@@ -50,17 +50,17 @@ const NavBar = () => {
           </div>
           <div className={`lg:flex ${!open ? "block" : "hidden"}`}>
             <ul className=" flex gap-5 cursor-pointer font-semibold">
-              <div className="h-[35px] w-[35px] flex justify-center items-center text-white bg-blue-500 rounded-full">
+              <li className="hover:text-blue-500 py-2 px-3 md:py-0 md:px-0">
+                <a href="https://github.com/KEM-CONSOLATION" target="_blank">
+                  <GithubLineIcon className="text-black-500  inline items-center" />{" "}
+                </a>
+              </li>
+              <li className="hover:text-blue-500 py-2 px-3 md:py-0 md:px-0">
                 <a
                   href="https://www.linkedin.com/in/kem-consolation/"
                   target="_blank"
                 >
-                  <LinkedinFillIcon className="" />
-                </a>
-              </div>
-              <li className="hover:text-blue-500 py-2 px-3 md:py-0 md:px-0">
-                <a href="https://github.com/KEM-CONSOLATION" target="_blank">
-                  <GithubLineIcon className="text-black-500  inline items-center" />{" "}
+                  <LinkedinFillIcon className="text-black-500  inline items-center" />{" "}
                 </a>
               </li>
               <li className="hover:text-blue-500 py-2 px-3 md:py-0 md:px-0">
