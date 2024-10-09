@@ -14,7 +14,6 @@ const Skills = () => {
               <p className=" text-sm">
                 Create Digital products with unique ideas
               </p>
-              <p className=" text-xs font-bold underline">20+ Projects</p>
             </div>
             <div className=" bg-blue-400 rounded-full px-5 py-5 ">
               <PenNibFillIcon size={40} />
@@ -29,7 +28,6 @@ const Skills = () => {
               <p className=" text-sm">
                 I develop FrontEnd with coding, super smooth
               </p>
-              <p className=" text-xs font-bold underline">25 Projects</p>
             </div>
             <div className=" bg-red-400 rounded-full px-5 py-5 ">
               <CodeFillIcon size={40} />
@@ -42,7 +40,6 @@ const Skills = () => {
               <p className=" text-sm">
                 Boost your online presense by SEO optimization
               </p>
-              <p className=" text-xs font-bold underline">20 Projects</p>
             </div>
             <div className=" bg-blue-400 rounded-full px-5 py-5 ">
               <PenNibFillIcon size={40} />
@@ -51,28 +48,6 @@ const Skills = () => {
         </div>
 
         <div className=" mx-5">
-          {/* <p className=" text-4xl font-semibold">
-            Hello👋 I'm Consolation Lotachi{" "}
-          </p> */}
-          {/* <p className=" text-blue-900 font-semibold mb-5">
-            <Typewriter
-              options={{
-                strings: [
-                  "A FrontEnd Web Developer",
-                  "A Graphics Designer",
-                  "A Digital Illustrator",
-                  "A User Interface Designer",
-                  "A User Experience Designer",
-                  "An Upcoming Tech Bro",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </p> */}
-          {/* <p className=" text-2xl italic font-medium text-slate-500 mb-7">
-            Every Great design begin's with an even better story
-          </p> */}
           <p className=" tracking-widest text-slate-70 text-justify">
             <p className=" font-semibold">
               Resourceful Front-End Web Developer
