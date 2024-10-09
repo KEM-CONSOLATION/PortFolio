@@ -3,9 +3,10 @@ import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 import { LinkIcon } from "../assets/icons";
 import Work1 from "../assets/images/zeilot.png";
-import Work2 from "../assets/images/pendulum.png";
-import Work3 from "../assets/images/photocard.png";
-// import CityDashboard from "../assets/images/CityDashboard.png";
+import Work2 from "../assets/images/VultureTech.png";
+import Work5 from "../assets/images/Cloud.png";
+import Work4 from "../assets/images/KureNode.png";
+import Work3 from "../assets/images/Taxapp.png";
 import Work from "../assets/images/CityHome.png";
 import pizza from "../assets/images/pizza.png";
 import farAway from "../assets/images/FarAway.png";
@@ -40,25 +41,40 @@ const Projects = () => {
               <img src={Work2} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <a
-                  href="https://k12.cabineblue.com/"
+                  href="https://vulture-tech.netlify.app/"
                   target="_blank"
                   className=" flex"
                 >
-                  <LinkIcon /> <span>Pendulum Africa</span>
+                  <LinkIcon /> <span>Vulture Tech </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="max-w-xs shadow-sm shadow-slate-400 p-5 relative">
+            <div class="relative group">
+              <img src={Work4} alt="" class="w-full" />
+              <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <a
+                  href="https://kurenode.com/"
+                  target="_blank"
+                  className=" flex"
+                >
+                  <LinkIcon /> <span>KureNode </span>
                 </a>
               </div>
             </div>
           </div>
           <div class="max-w-xs shadow-sm shadow-slate-400 p-5 relative">
             <div class="relative group">
-              <img src={Work} alt="" class="w-full" />
+              <img src={Work3} alt="" class="w-full" />
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <a
-                  href="https://cityxplorer.io"
+                  href="https://taxxapp.netlify.app/"
                   target="_blank"
                   className=" flex"
                 >
-                  <LinkIcon /> <span>CityXplorer</span>
+                  <LinkIcon /> <span>Taxapp</span>
                 </a>
               </div>
             </div>
@@ -161,21 +177,6 @@ const Projects = () => {
               <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <a href="/" target="_blank" className=" flex">
                   <LinkIcon /> <span>Atomic Blog</span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="max-w-xs shadow-sm shadow-slate-400 p-5 relative">
-            <div class="relative group">
-              <img src={Work3} alt="" class="w-full" />
-              <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <a
-                  href="https://photo-card-event.vercel.app/"
-                  target="_blank"
-                  className=" flex"
-                >
-                  <LinkIcon /> <span>Photocard Generator</span>
                 </a>
               </div>
             </div>

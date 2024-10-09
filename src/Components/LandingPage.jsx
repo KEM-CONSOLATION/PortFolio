@@ -68,10 +68,10 @@ const LandingPage = () => {
             <div className=" mt-10 animate-bounce">
               <p className=" bg-blue-500 inline px-5 py-3 font-semibold text-white rounded-md">
                 <a
-                  href="https://drive.google.com/file/d/1_17HiaNAuCihdZu3ePEZ_x9Nilj5cLPU/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1_k497EcauEspuFPaOdblFHFvTk1dxyAG/view?usp=drive_link"
                   target="_blank"
                 >
-                  View CV
+                  Resume
                 </a>
               </p>
             </div>

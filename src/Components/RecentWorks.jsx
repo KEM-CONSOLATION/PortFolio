@@ -1,10 +1,10 @@
 import React from "react";
 import { LinkIcon } from "../assets/icons";
 
-import Work from "../assets/images/CityHome.png";
+import Work6 from "../assets/images/Cloud.png";
+import Work2 from "../assets/images/KureNode.png";
+import Work from "../assets/images/VultureTech.png";
 import Work1 from "../assets/images/zeilot.png";
-import Work2 from "../assets/images/pendulum.png";
-import Work3 from "../assets/images/photocard.png";
 import { Link } from "react-router-dom";
 const RecentWorks = () => {
   return (
@@ -23,11 +23,11 @@ const RecentWorks = () => {
                 <img src={Work} alt="" class="w-full" />
                 <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <a
-                    href="https://cityxplorer.io"
+                    href="https://vulture-tech.netlify.app/"
                     target="_blank"
                     className=" flex"
                   >
-                    <LinkIcon /> <span>CityXplorer</span>
+                    <LinkIcon /> <span>Vulture Tech</span>
                   </a>
                 </div>
               </div>
@@ -74,25 +74,25 @@ const RecentWorks = () => {
                 <img src={Work2} alt="" class="w-full" />
                 <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <a
-                    href="https://k12.cabineblue.com/"
+                    href="http://kurenode.com/"
                     target="_blank"
                     className=" flex"
                   >
-                    <LinkIcon /> <span>Pendulum</span>
+                    <LinkIcon /> <span>KureNode</span>
                   </a>
                 </div>
               </div>
             </div>
             <div class="max-w-xs shadow-sm shadow-slate-400 p-5 relative">
               <div class="relative group">
-                <img src={Work3} alt="" class="w-full" />
+                <img src={Work6} alt="" class="w-full" />
                 <div class="absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <a
-                    href="https://photo-card-event.vercel.app/"
+                    href="https://cloudintegratedinc.com/"
                     target="_blank"
                     className=" flex"
                   >
-                    <LinkIcon /> <span>Photocard Generator</span>
+                    <LinkIcon /> <span>Cloud Integrated</span>
                   </a>
                 </div>
               </div>
