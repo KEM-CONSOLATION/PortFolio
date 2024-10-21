@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ReactjsFillIcon, Css3FillIcon } from "../assets/icons";
 import Typewriter from "typewriter-effect";
 
-import Profile from "../assets/images/Me-min.jpg";
+import Profile from "../assets/images/IMG.jpg";
 import GithubFillIcon from "remixicon-react/GithubFillIcon";
 const LandingPage = () => {
   const [counter, setCounter] = useState(0);
@@ -36,24 +36,18 @@ const LandingPage = () => {
                 options={{
                   strings: [
                     "A FrontEnd Engineer",
+                    "-Javascript",
                     "-React Js",
-                    "-Next Js",
-                    "-Tailwind Js",
-                    "-Css3 Js",
                     "-Typescript",
+                    "-Next Js",
+                    "-Css3 Js",
+                    "-Tailwind Js",
                     "-Styled Components",
                     "-Context Api",
                     "-React Router",
                     "-Redux Toolkit",
+                    "-Axios",
                     "-Git",
-                    "-Javascript",
-                    "-Figma",
-                    "-Adobe Illustrator",
-                    "-Adobe Illustrator",
-                    "-Adobe Photoschop",
-                    "-Digital Illustrator",
-                    "-User Interface Designer",
-                    "-User Experience Designer",
                     "-Upcoming Tech Bro",
                   ],
                   autoStart: true,
@@ -75,25 +69,6 @@ const LandingPage = () => {
                 </a>
               </p>
             </div>
-
-            {/* <div className=" flex gap-5 md:grid md:grid-cols-2">
-              <div className=" flex items-center gap-1 mt-5 md:mt-19 ">
-                <h1 className=" text-3xl md:text-5xl font-semibold text-blue-900">
-                  {counter2}
-                </h1>
-                <h1 className=" text-xs md:text-sm">
-                  Years +<br /> Experience
-                </h1>
-              </div>
-              <div className=" flex items-center gap-1 mt-5 md:mt-19">
-                <h1 className=" text-3xl md:text-5xl font-semibold text-blue-900">
-                  {counter}{" "}
-                </h1>
-                <h1 className=" text-xs md:text-sm">
-                  Project completed <br /> in 106 countries
-                </h1>
-              </div>
-            </div> */}
           </div>
           <div className=" flex flex-col items-center justify-center mb-10 md:mb-0 h-72 w-72 mx-auto md:mx-0 md:h-96 md:w-96 rounded-full bg-blue-600 relative">
             <img
